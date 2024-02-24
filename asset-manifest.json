@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/intro-to-react-hw/static/css/main.c95b4d72.css",
-    "main.js": "/intro-to-react-hw/static/js/main.007980ae.js",
-    "static/media/Montserrat-SemiBold.ttf": "/intro-to-react-hw/static/media/Montserrat-SemiBold.93b37a465fc4ec0d0415.ttf",
-    "static/media/Montserrat-Regular.ttf": "/intro-to-react-hw/static/media/Montserrat-Regular.24785cc015b27a3e964b.ttf",
-    "static/media/Roboto-Regular.ttf": "/intro-to-react-hw/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
-    "static/media/Poppins-Medium.ttf": "/intro-to-react-hw/static/media/Poppins-Medium.673ed42382ab264e0bf5.ttf",
-    "static/media/Poppins-SemiBold.ttf": "/intro-to-react-hw/static/media/Poppins-SemiBold.ac8d04b620e54be9b0f0.ttf",
-    "index.html": "/intro-to-react-hw/index.html",
-    "static/media/arrow.svg": "/intro-to-react-hw/static/media/arrow.f797d970425484c5366e.svg",
-    "main.c95b4d72.css.map": "/intro-to-react-hw/static/css/main.c95b4d72.css.map",
-    "main.007980ae.js.map": "/intro-to-react-hw/static/js/main.007980ae.js.map"
+    "main.css": "/intro-to-react-HW/static/css/main.9b58a271.css",
+    "main.js": "/intro-to-react-HW/static/js/main.007980ae.js",
+    "static/media/Montserrat-SemiBold.ttf": "/intro-to-react-HW/static/media/Montserrat-SemiBold.93b37a465fc4ec0d0415.ttf",
+    "static/media/Montserrat-Regular.ttf": "/intro-to-react-HW/static/media/Montserrat-Regular.24785cc015b27a3e964b.ttf",
+    "static/media/Roboto-Regular.ttf": "/intro-to-react-HW/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
+    "static/media/Poppins-Medium.ttf": "/intro-to-react-HW/static/media/Poppins-Medium.673ed42382ab264e0bf5.ttf",
+    "static/media/Poppins-SemiBold.ttf": "/intro-to-react-HW/static/media/Poppins-SemiBold.ac8d04b620e54be9b0f0.ttf",
+    "index.html": "/intro-to-react-HW/index.html",
+    "static/media/arrow.svg": "/intro-to-react-HW/static/media/arrow.f797d970425484c5366e.svg",
+    "main.9b58a271.css.map": "/intro-to-react-HW/static/css/main.9b58a271.css.map",
+    "main.007980ae.js.map": "/intro-to-react-HW/static/js/main.007980ae.js.map"
   },
   "entrypoints": [
-    "static/css/main.c95b4d72.css",
+    "static/css/main.9b58a271.css",
     "static/js/main.007980ae.js"
   ]
 }
