@@ -1,0 +1,123 @@
+@font-face {
+  font-weight: 400;
+  font-family: "Roboto";
+  src: url("/public/fonts/Roboto-Regular.ttf");
+}
+
+.Button {
+  margin-right: 10px;
+  padding: 10px 25px;
+
+  border: 2px solid transparent;
+  border-radius: 10px;
+
+  font-family: "Roboto";
+  font-size: 18px;
+  line-height: 1.2em;
+
+  color: #FFFFFF;
+  background-color: #000000;
+}
+
+.Button:hover {
+  background-color: #5F5F5F;
+}
+
+.Button:active {
+  background-color: #000000;
+}
+
+.Button:disabled {
+  color: #878787;
+  background-color: #CFCFCF;
+}
+
+/* Button transparent styles */
+
+.Button_transparent {
+  border: 2px solid #000000;
+
+  color: #000000;
+  background-color: transparent;
+}
+
+.Button_transparent:hover {
+  border: 2px solid #5F5F5F;
+
+  color: #5F5F5F;
+  background-color: transparent;
+}
+
+.Button_transparent:active {
+  border: 2px solid #000000;
+
+  color: #000000;
+  background-color: transparent;
+}
+
+.Button_transparent:disabled {
+  border: 2px solid #CFCFCF;
+  
+  color: #CFCFCF;
+  background-color: transparent;
+}
+
+/* Button dark styles */
+
+.Button_dark {
+  border: 2px solid #FFFFFF;
+
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+.Button_dark:hover {
+  border: 2px solid #CFCFCF;
+
+  color: #000000;
+  background-color: #CFCFCF;
+}
+
+.Button_dark:active {
+  border: 2px solid #FFFFFF;
+
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+.Button_dark:disabled {
+  border: 2px solid #5F5F5F;
+  
+  color: #000000;
+  background-color: #5F5F5F;
+}
+
+/* Button dark transparent styles */
+
+.Button_dark.Button_transparent {
+  border: 2px solid #FFFFFF;
+
+  color: #FFFFFF;
+  background-color: transparent;
+}
+
+.Button_dark.Button_transparent:hover {
+  border: 2px solid #CFCFCF;
+
+  color: #CFCFCF;
+  background-color: transparent;
+}
+
+.Button_dark.Button_transparent:active {
+  border: 2px solid #FFFFFF;
+
+  color: #FFFFFF;
+  background-color: transparent;
+}
+
+.Button_dark.Button_transparent:disabled {
+  border: 2px solid #5F5F5F;
+  
+  color: #5F5F5F;
+  background-color: transparent;
+}

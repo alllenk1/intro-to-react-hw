@@ -1,0 +1,72 @@
+@font-face {
+  font-weight: 500;
+  font-family: "Poppins";
+  src: url("/public/fonts/Poppins-Medium.ttf");
+}
+
+.Profile {
+  width: 375px;
+
+  font: 500 14px/1.5 "Poppins";
+
+  border: 1px solid black;
+}
+
+.Profile-container {
+  margin: 0 auto;
+
+  width: 335px;
+}
+
+.Profile-header {
+  display: flex;
+  align-items: center;
+
+  margin: 45px 0 15px 0;
+}
+
+.Profile-header-button {
+  height: 25px;
+  width: 25px;
+
+  border: transparent;
+  background: url(/public/img/arrow.svg) no-repeat center;
+}
+
+.Profile-header-text {
+  margin: 0;
+
+  font-size: 18px;
+
+  color: #505050;
+}
+
+.Profile-menu {
+  width: 335px;
+
+  margin: 50px auto;
+}
+
+.Profile-button {
+  margin-bottom: 60px;
+  padding: 10px 0;
+
+  width: 100%;
+
+  font-family: "Poppins";
+  font-weight: 500;
+
+  border: none;
+  border-radius: 10px;
+
+  color: #FFFFFF;
+  background-color: #F66D6D;
+}
+
+.Profile-button:hover {
+  background-color: #FF8282;
+}
+
+.Profile-button:active {
+  background-color: #F66D6D;
+}

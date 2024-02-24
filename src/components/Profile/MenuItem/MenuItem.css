@@ -1,0 +1,34 @@
+@font-face {
+  font-weight: 500;
+  font-family: "Poppins";
+  src: url("/public/fonts/Poppins-SemiBold.ttf");
+}
+
+.Menu-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  height: 50px;
+  width: 100%;
+
+  font: 500 14px/1.5 "Poppins";
+
+  border: none;
+
+  color: #505050;
+  background-color: transparent;
+}
+
+.Menu-item:hover {
+  border-radius: 10px;
+  background-color: #EEEEEE;
+}
+
+.Menu-item:active {
+  background-color: transparent;
+}
+
+.Menu-item-icon {
+  margin-right: 20px;
+}
