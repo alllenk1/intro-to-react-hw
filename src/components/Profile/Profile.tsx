@@ -47,7 +47,7 @@ const Profile = () => {
         <div className={cnProfile('body')}>
           <User 
             login="Jane Doe"
-            avatar="/img/avatar.png"
+            avatar="./img/avatar.png"
             description="This is a small bio description to let users
             express themselves"
             />
