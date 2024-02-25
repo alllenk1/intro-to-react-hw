@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/intro-to-react-hw/static/css/main.c95b4d72.css",
-    "main.js": "/intro-to-react-hw/static/js/main.007980ae.js",
+    "main.css": "/intro-to-react-hw/static/css/main.0d191571.css",
+    "main.js": "/intro-to-react-hw/static/js/main.89702254.js",
     "static/media/Montserrat-SemiBold.ttf": "/intro-to-react-hw/static/media/Montserrat-SemiBold.93b37a465fc4ec0d0415.ttf",
     "static/media/Montserrat-Regular.ttf": "/intro-to-react-hw/static/media/Montserrat-Regular.24785cc015b27a3e964b.ttf",
     "static/media/Roboto-Regular.ttf": "/intro-to-react-hw/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
@@ -9,11 +9,11 @@
     "static/media/Poppins-SemiBold.ttf": "/intro-to-react-hw/static/media/Poppins-SemiBold.ac8d04b620e54be9b0f0.ttf",
     "index.html": "/intro-to-react-hw/index.html",
     "static/media/arrow.svg": "/intro-to-react-hw/static/media/arrow.f797d970425484c5366e.svg",
-    "main.c95b4d72.css.map": "/intro-to-react-hw/static/css/main.c95b4d72.css.map",
-    "main.007980ae.js.map": "/intro-to-react-hw/static/js/main.007980ae.js.map"
+    "main.0d191571.css.map": "/intro-to-react-hw/static/css/main.0d191571.css.map",
+    "main.89702254.js.map": "/intro-to-react-hw/static/js/main.89702254.js.map"
   },
   "entrypoints": [
-    "static/css/main.c95b4d72.css",
-    "static/js/main.007980ae.js"
+    "static/css/main.0d191571.css",
+    "static/js/main.89702254.js"
   ]
 }
