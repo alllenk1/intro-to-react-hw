@@ -1,5 +1,5 @@
 import React from 'react';
-import { FC } from "react";
+import { FC } from 'react';
 
 import { cnProfile } from './Profile.classname';
 import { User } from './User/User';

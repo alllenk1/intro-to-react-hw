@@ -52,6 +52,12 @@
   margin-bottom: 0;
 }
 
+.Card-title {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
 .Card-stat {
   display: flex;
 

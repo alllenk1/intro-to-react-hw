@@ -1,5 +1,5 @@
 import React from 'react';
-import { FC } from "react";
+import { FC } from 'react';
 
 import { cnMenuItem } from './MenuItem.classname'
 

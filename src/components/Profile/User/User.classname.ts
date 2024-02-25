@@ -1,4 +1,4 @@
-import { cn } from "@bem-react/classname";
+import { cn } from '@bem-react/classname';
 
 const cnUser = cn('User');
 

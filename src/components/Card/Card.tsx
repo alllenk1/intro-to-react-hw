@@ -1,11 +1,11 @@
-import React from "react";
-import { FC } from "react";
+import React from 'react';
+import { FC } from 'react';
 
-import { cnCard } from "./Card.classname";
+import { cnCard } from './Card.classname';
 
-import "./Card.css";
+import './Card.css';
 
-const defaultProduct = "./img/default_product.jpeg"
+const defaultProduct = './img/default_product.jpeg';
 
 type CardProps = {
   image?: string;

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { cnApp } from "./App.classname";
+import { cnApp } from './App.classname';
 import { Button } from './components/Button/Button';
 import { Profile } from './components/Profile/Profile';
 import { Card } from './components/Card/Card';
@@ -33,14 +33,14 @@ const App = () => {
       <div className={cnApp('card-task')}>
         <Card 
           image="./img/product_photo.png"
-          title="Дорожные Чехлы для..."
+          title="Дорожные Чехлы для таблеток на неделю, на 7 дней"
           raiting={4.7}
           ordersCount="123 купили"
           price="250 ₽"
         />
 
         <Card 
-          title="Дорожные Чехлы для..."
+          title="Дорожные Чехлы для таблеток на неделю, на 7 дней"
           firstOrder
           price="250 ₽"
         />
