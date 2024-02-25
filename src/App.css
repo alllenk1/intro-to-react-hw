@@ -3,18 +3,36 @@
 }
 
 .App-button-task {
-  display: inline-block;
+  display: flex;
+
+  width: 540px;
 
   border: 2px solid black;
 }
 
-.App-button-task_light {
-  padding: 30px 15px;
+.App-button-task_light,
+.App-button-task_dark {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 250px;
+
+  padding: 20px;
 }
 
 .App-button-task_dark {
-  padding: 30px 15px;
   background-color: #000000;
+}
+
+.App-button-task_primary {
+  display: flex;
+  flex-direction: column;
+}
+
+.App-button-task_secondary {
+  display: flex;
+  flex-direction: column;
 }
 
 .App-card-task {

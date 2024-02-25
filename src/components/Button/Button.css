@@ -5,7 +5,8 @@
 }
 
 .Button {
-  margin-right: 10px;
+  margin-right: 15px;
+  margin-bottom: 15px;
   padding: 10px 25px;
 
   border: 2px solid transparent;
@@ -19,105 +20,67 @@
   background-color: #000000;
 }
 
-.Button:hover {
+.Button_state_hover {
   background-color: #5F5F5F;
 }
 
-.Button:active {
-  background-color: #000000;
-}
-
-.Button:disabled {
-  color: #878787;
+.Button_state_disabled {
   background-color: #CFCFCF;
 }
 
-/* Button transparent styles */
+.Button_state_hover {
+  border: 2px solid transparent;
 
-.Button_transparent {
+  background-color: #5F5F5F;
+}
+
+.Button_secondary {
   border: 2px solid #000000;
 
   color: #000000;
   background-color: transparent;
 }
 
-.Button_transparent:hover {
+.Button_secondary.Button_state_hover {
   border: 2px solid #5F5F5F;
 
   color: #5F5F5F;
-  background-color: transparent;
 }
 
-.Button_transparent:active {
-  border: 2px solid #000000;
-
-  color: #000000;
-  background-color: transparent;
-}
-
-.Button_transparent:disabled {
+.Button_secondary.Button_state_disabled {
   border: 2px solid #CFCFCF;
-  
-  color: #CFCFCF;
-  background-color: transparent;
-}
 
-/* Button dark styles */
+  color: #CFCFCF;
+}
 
 .Button_dark {
-  border: 2px solid #FFFFFF;
-
   color: #000000;
   background-color: #FFFFFF;
 }
 
-.Button_dark:hover {
-  border: 2px solid #CFCFCF;
-
-  color: #000000;
+.Button_dark.Button_state_hover {
   background-color: #CFCFCF;
 }
 
-.Button_dark:active {
-  border: 2px solid #FFFFFF;
-
-  color: #000000;
-  background-color: #FFFFFF;
-}
-
-.Button_dark:disabled {
-  border: 2px solid #5F5F5F;
-  
-  color: #000000;
+.Button_dark.Button_state_disabled {
   background-color: #5F5F5F;
 }
 
-/* Button dark transparent styles */
-
-.Button_dark.Button_transparent {
+.Button_dark.Button_secondary {
   border: 2px solid #FFFFFF;
 
   color: #FFFFFF;
   background-color: transparent;
 }
 
-.Button_dark.Button_transparent:hover {
+.Button_dark.Button_secondary.Button_state_hover {
   border: 2px solid #CFCFCF;
 
   color: #CFCFCF;
-  background-color: transparent;
 }
 
-.Button_dark.Button_transparent:active {
-  border: 2px solid #FFFFFF;
-
-  color: #FFFFFF;
-  background-color: transparent;
-}
-
-.Button_dark.Button_transparent:disabled {
+.Button_dark.Button_secondary.Button_state_disabled {
   border: 2px solid #5F5F5F;
-  
+
   color: #5F5F5F;
-  background-color: transparent;
 }

@@ -15,12 +15,28 @@ const App = () => {
       <h2 className={cnApp('task-title')}>Группа кнопок на рукаве</h2>
       <div className={cnApp('button-task')}>
         <div className={cnApp('button-task_light')}>
-          <Button text="Hello" />
-          <Button text="Hello" transparent />
+          <div className={cnApp('button-task_primary')}>
+            <Button text='Hello' />
+            <Button text='Hello' state='hover'/>
+            <Button text='Hello' state='disabled'/>
+          </div>
+          <div className={cnApp('button-task_secondary')}>
+            <Button text='Hello' secondary/>
+            <Button text='Hello' secondary state='hover'/>
+            <Button text='Hello' secondary state='disabled'/>
+          </div>
         </div>
         <div className={cnApp('button-task_dark')}>
-          <Button text="Hello" dark transparent />
-          <Button text="Hello" dark/>
+          <div className={cnApp('button-task_primary')}>
+            <Button text='Hello' dark />
+            <Button text='Hello' dark state='hover'/>
+            <Button text='Hello' dark state='disabled'/>
+          </div>
+          <div className={cnApp('button-task_secondary')}>
+            <Button text='Hello' dark secondary/>
+            <Button text='Hello' dark secondary state='hover'/>
+            <Button text='Hello' dark secondary state='disabled'/>
+          </div>
         </div>
       </div>
 

@@ -8,12 +8,13 @@ import './Button.css'
 type ButtonProps = {
   text: string;
   dark?: boolean;
-  transparent?: boolean;
+  secondary?: boolean;
+  state?: string;
 }
 
-const Button: FC<ButtonProps> = ({ text, dark, transparent }) => {
+const Button: FC<ButtonProps> = ({ text, dark, secondary, state }) => {
   return (
-    <button className={cnButton({ dark, transparent })}>
+    <button className={cnButton({ dark, secondary, state })}>
       {text}
     </button>
   )
